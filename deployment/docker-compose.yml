@@ -29,9 +29,9 @@ services:
     environment:
       MYSQL_DATABASE: 'events'
       # So you don't have to use root, but you can if you like
-#       MYSQL_USER: 'root'
+      MYSQL_USER: 'events'
       # You can use whatever password you like
-      MYSQL_PASSWORD: 'password'
+      MYSQL_PASSWORD: 'evts'
       # Password for root access
       MYSQL_ROOT_PASSWORD: 'password'
     ports:
