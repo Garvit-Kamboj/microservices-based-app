@@ -1,0 +1,12 @@
+version: 1
+datastore:
+  user: your_username
+  password: your_password
+  hostname: acit3855-lab6a.eastus.cloudapp.azure.com
+  port: 3306
+  db: your_database
+  
+events:
+  hostname: acit3855-lab6a.eastus.cloudapp.azure.com
+  port: 9092
+  topic: events
