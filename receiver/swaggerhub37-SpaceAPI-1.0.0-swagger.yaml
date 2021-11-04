@@ -1,0 +1,113 @@
+openapi: 3.0.0
+info:
+  description: An app that receives and analyzes the readings of "temperature", "air pressure" of the Earth from space centres
+  version: "1.0.0"
+  title: Space API
+  contact:
+    email: gkamboj5@my.bcit.ca
+tags:
+  - name: sensors
+    description: Operations available to space centres
+paths:
+  /data/temperature:
+    post:
+      tags:
+        - sensors
+      summary: reports a temperature data at a specific time
+      operationId: app.report_temperature_data
+      description: Adds a new temperature data to the system
+      responses:
+        '201':
+          description: item created i.e. success
+        '400':
+          description: 'invalid input parameter, object invalid'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TemperatureData'
+        description: Temperature item to add
+        
+  /data/air-pressure:
+    post:
+      tags:
+        - sensors
+      summary: reports an air pressure data at a specific time
+      operationId: app.report_air_pressure_data
+      description: Adds a new air pressure data to the system
+      responses:
+        '201':
+          description: item created i.e. success
+        '400':
+          description: 'invalid input parameter, object invalid'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AirPressureData'
+        description: Temperature item to add
+components:
+  schemas:
+    TemperatureData:
+      required:
+        - sensor_id
+        - coordinates
+        - temperature
+        - timestamp
+      properties:
+        sensor_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        coordinates:
+          type: string
+          example: "36.61, 0.78"
+        temperature:
+          $ref: '#/components/schemas/Temperature'
+        timestamp:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+      type: object
+  
+  
+    AirPressureData:
+      required:
+        - sensor_id
+        - coordinates
+        - air_pressure
+        - timestamp
+      properties:
+        sensor_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        coordinates:
+          type: string
+          example: "36.61, 0.78"
+        air_pressure:
+          type: string
+          example: "102.2kPa"
+        timestamp:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+      type: object
+      
+    Temperature:
+      required:
+      - low
+      - intermediate
+      - high
+      properties:
+        low:
+          type: string
+          example: "10°C"
+        intermediate:
+          type: string
+          example: "22°C"
+        high:
+          type: string
+          example: "40°C"
+      type: object
+      

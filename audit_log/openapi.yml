@@ -1,0 +1,157 @@
+openapi: 3.0.0
+info:
+  description: This API provides Audit info
+  version: "1.0.0"
+  title: Audit API
+  contact:
+    email: gkamboj5@my.bcit.ca
+tags:
+  - name: sensors
+    description: Operations available to space centres
+paths:
+  /data/temperature:
+    get:
+      summary: gets new temperature data from history
+      operationId: app.get_temperature_data
+      description: Gets temperature data from the event store
+      parameters:
+        - name: index
+          in: query
+          description: Gets the temperature at the index in the event store
+          schema:
+            type: integer
+            example: 100
+      responses:
+        '200':
+          description: Successfully returned a temperature event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/TemperatureData'
+        '400':
+          description: 'Invalid/Bad Request'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: 'Not Found'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        
+  /data/air-pressure:
+    get:
+      tags:
+        - sensors
+      summary: gets new air pressure data
+      operationId: app.get_air_pressure_data
+      description: Gets air pressure data from the event store
+      parameters:
+        - name: index
+          in: query
+          description: Gets the air pressure at the index in the event store
+          schema:
+            type: integer
+            example: 100
+      responses:
+        '200':
+          description: Successfully returned an air pressure event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/AirPressureData'
+        '400':
+          description: 'Invalid/Bad Request'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: 'Not Found'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    TemperatureData:
+      required:
+        - sensor_id
+        - coordinates
+        - temperature
+        - timestamp
+      properties:
+        sensor_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        coordinates:
+          type: string
+          example: "36.61, 0.78"
+        temperature:
+          $ref: '#/components/schemas/Temperature'
+        timestamp:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+      type: object
+  
+  
+    AirPressureData:
+      required:
+        - sensor_id
+        - coordinates
+        - air_pressure
+        - timestamp
+      properties:
+        sensor_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        coordinates:
+          type: string
+          example: "36.61, 0.78"
+        air_pressure:
+          type: string
+          example: "102.2kPa"
+        timestamp:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+      type: object
+      
+    Temperature:
+      required:
+      - low
+      - intermediate
+      - high
+      properties:
+        low:
+          type: string
+          example: "10°C"
+        intermediate:
+          type: string
+          example: "22°C"
+        high:
+          type: string
+          example: "40°C"
+      type: object
+      

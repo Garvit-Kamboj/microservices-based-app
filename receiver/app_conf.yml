@@ -1,0 +1,10 @@
+version: 1
+eventstore1:
+  url: http://localhost:8090/data/air-pressure
+eventstore2:
+  url: http://localhost:8090/data/temperature
+
+events:
+  hostname: acit3855-lab6a.eastus.cloudapp.azure.com
+  port: 9092
+  topic: events

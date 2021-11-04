@@ -1,0 +1,64 @@
+openapi: 3.0.0
+info:
+  description: An app that receives and analyzes the readings of "temperature", "air pressure" of the Earth from space centres
+  version: "1.0.0"
+  title: Space API
+  contact:
+    email: gkamboj5@my.bcit.ca
+tags:
+  - name: sensors
+    description: Operations available to space centres
+paths:
+  /stats:
+    get:
+      summary: Gets the event stats
+      operationId: app.get_stats
+      description: Gets Air Pressure and Temperature processsed statistics
+      responses:
+        '200':
+          description: Successfully returned a list of blood pressure events
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/ReadingStats'
+        '400':
+          description: "Invalid request"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    ReadingStats:
+      required:
+      - num_temp_readings
+      - max_temp_low_reading
+      - max_temp_high_reading
+      - max_temp_intermediate_reading
+      - num_ap_readings
+      - max_ap_reading
+      properties:
+        num_temp_readings:
+          type: integer
+          example: 500000
+        max_temp_low_reading:
+          type: string
+          example: "5°C"
+        max_temp_intermediate_reading:
+          type: string
+          example: "20°C"
+        max_temp_high_reading:
+          type: string
+          example: "40°C"
+        num_ap_readings:
+          type: integer
+          example: 500000
+        max_ap_reading:
+          type: string
+          example: "102.2kPa"
+      type: object
