@@ -1,0 +1,9 @@
+{
+    "num_temp_readings": 126,
+    "max_temp_low_reading": "0\u00b0C",
+    "max_temp_high_reading": "50\u00b0C",
+    "max_temp_intermediate_reading": "30\u00b0C",
+    "num_ap_readings": 124,
+    "max_ap_reading": "105.2kPa",
+    "last_updated": "2021-11-03T23:17:52Z"
+}

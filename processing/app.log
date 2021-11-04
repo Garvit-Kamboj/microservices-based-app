@@ -1,0 +1,432 @@
+2021-11-03 23:13:17,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:18,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:18,922 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:17Z with 126 results
+2021-11-03 23:13:18,922 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:17Z with 124 results 
+2021-11-03 23:13:18,923 - basicLogger - DEBUG - Updated statistic values: {'num_temp_readings': 126, 'max_temp_low_reading': '0°C', 'max_temp_high_reading': '50°C', 'max_temp_intermediate_reading': '30°C', 'num_ap_readings': 124, 'max_ap_reading': '105.2kPa', 'last_updated': '2021-11-03T23:13:17Z'}
+2021-11-03 23:13:18,923 - basicLogger - INFO - Period Processing ended
+2021-11-03 23:13:19,755 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:18Z with 126 results
+2021-11-03 23:13:19,755 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:18Z with 124 results 
+2021-11-03 23:13:19,756 - basicLogger - DEBUG - Updated statistic values: {'num_temp_readings': 126, 'max_temp_low_reading': '0°C', 'max_temp_high_reading': '50°C', 'max_temp_intermediate_reading': '30°C', 'num_ap_readings': 124, 'max_ap_reading': '105.2kPa', 'last_updated': '2021-11-03T23:13:18Z'}
+2021-11-03 23:13:19,756 - basicLogger - INFO - Period Processing ended
+2021-11-03 23:13:22,489 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:22,957 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:22Z with 0 results
+2021-11-03 23:13:22,958 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:22Z with 3 results 
+2021-11-03 23:13:23,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:24,255 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:23Z with 0 results
+2021-11-03 23:13:24,256 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:23Z with 3 results 
+2021-11-03 23:13:27,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:27,944 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:27Z with 0 results
+2021-11-03 23:13:27,944 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:27Z with 3 results 
+2021-11-03 23:13:28,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:29,190 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:28Z with 0 results
+2021-11-03 23:13:29,190 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:28Z with 3 results 
+2021-11-03 23:13:32,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:32,929 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:32Z with 0 results
+2021-11-03 23:13:32,929 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:32Z with 3 results 
+2021-11-03 23:13:33,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:34,243 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:33Z with 0 results
+2021-11-03 23:13:34,243 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:33Z with 3 results 
+2021-11-03 23:13:37,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:37,994 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:37Z with 0 results
+2021-11-03 23:13:37,994 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:37Z with 3 results 
+2021-11-03 23:13:38,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:39,185 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:38Z with 0 results
+2021-11-03 23:13:39,186 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:38Z with 3 results 
+2021-11-03 23:13:42,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:42,928 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:42Z with 0 results
+2021-11-03 23:13:42,928 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:42Z with 3 results 
+2021-11-03 23:13:43,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:44,223 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:43Z with 0 results
+2021-11-03 23:13:44,223 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:43Z with 3 results 
+2021-11-03 23:13:47,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:47,971 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:47Z with 0 results
+2021-11-03 23:13:47,971 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:47Z with 3 results 
+2021-11-03 23:13:48,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:49,193 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:48Z with 0 results
+2021-11-03 23:13:49,193 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:48Z with 3 results 
+2021-11-03 23:13:52,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:52,990 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:52Z with 0 results
+2021-11-03 23:13:52,991 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:52Z with 3 results 
+2021-11-03 23:13:53,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:54,210 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:53Z with 0 results
+2021-11-03 23:13:54,211 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:53Z with 3 results 
+2021-11-03 23:13:57,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:57,972 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:57Z with 0 results
+2021-11-03 23:13:57,972 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:57Z with 3 results 
+2021-11-03 23:13:58,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:13:59,191 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:13:58Z with 0 results
+2021-11-03 23:13:59,191 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:13:58Z with 3 results 
+2021-11-03 23:14:02,489 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:03,028 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:02Z with 0 results
+2021-11-03 23:14:03,028 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:02Z with 3 results 
+2021-11-03 23:14:03,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:04,302 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:03Z with 0 results
+2021-11-03 23:14:04,303 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:03Z with 3 results 
+2021-11-03 23:14:07,489 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:08,010 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:07Z with 0 results
+2021-11-03 23:14:08,010 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:07Z with 3 results 
+2021-11-03 23:14:08,750 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:09,205 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:08Z with 0 results
+2021-11-03 23:14:09,206 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:08Z with 3 results 
+2021-11-03 23:14:12,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:13,021 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:12Z with 0 results
+2021-11-03 23:14:13,021 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:12Z with 3 results 
+2021-11-03 23:14:13,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:14,252 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:13Z with 0 results
+2021-11-03 23:14:14,252 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:13Z with 3 results 
+2021-11-03 23:14:17,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:18,006 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:17Z with 0 results
+2021-11-03 23:14:18,006 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:17Z with 3 results 
+2021-11-03 23:14:18,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:19,187 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:18Z with 0 results
+2021-11-03 23:14:19,187 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:18Z with 3 results 
+2021-11-03 23:14:22,490 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:23,064 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:22Z with 0 results
+2021-11-03 23:14:23,065 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:22Z with 3 results 
+2021-11-03 23:14:23,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:24,261 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:23Z with 0 results
+2021-11-03 23:14:24,262 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:23Z with 3 results 
+2021-11-03 23:14:27,489 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:27,985 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:27Z with 0 results
+2021-11-03 23:14:27,985 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:27Z with 3 results 
+2021-11-03 23:14:28,750 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:29,199 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:28Z with 0 results
+2021-11-03 23:14:29,199 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:28Z with 3 results 
+2021-11-03 23:14:32,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:32,993 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:32Z with 0 results
+2021-11-03 23:14:32,993 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:32Z with 3 results 
+2021-11-03 23:14:33,749 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:34,220 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:33Z with 0 results
+2021-11-03 23:14:34,221 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:33Z with 3 results 
+2021-11-03 23:14:35,354 - basicLogger - INFO - Get stats request started
+2021-11-03 23:14:35,355 - basicLogger - DEBUG - Contents: {'num_temp_readings': 126, 'max_temp_low_reading': '0°C', 'max_temp_high_reading': '50°C', 'max_temp_intermediate_reading': '30°C', 'num_ap_readings': 124, 'max_ap_reading': '105.2kPa', 'last_updated': '2021-11-03T23:13:18Z'}
+2021-11-03 23:14:35,355 - basicLogger - INFO - Get stats request completed
+2021-11-03 23:14:37,490 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:38,042 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:37Z with 0 results
+2021-11-03 23:14:38,043 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:37Z with 3 results 
+2021-11-03 23:14:38,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:39,188 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:38Z with 0 results
+2021-11-03 23:14:39,191 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:38Z with 3 results 
+2021-11-03 23:14:39,207 - basicLogger - INFO - Get stats request started
+2021-11-03 23:14:39,208 - basicLogger - DEBUG - Contents: {'num_temp_readings': 126, 'max_temp_low_reading': '0°C', 'max_temp_high_reading': '50°C', 'max_temp_intermediate_reading': '30°C', 'num_ap_readings': 124, 'max_ap_reading': '105.2kPa', 'last_updated': '2021-11-03T23:13:18Z'}
+2021-11-03 23:14:39,208 - basicLogger - INFO - Get stats request completed
+2021-11-03 23:14:42,489 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:42,989 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:42Z with 0 results
+2021-11-03 23:14:42,990 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:42Z with 3 results 
+2021-11-03 23:14:43,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:44,214 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:43Z with 0 results
+2021-11-03 23:14:44,215 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:43Z with 3 results 
+2021-11-03 23:14:47,489 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:48,042 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:47Z with 0 results
+2021-11-03 23:14:48,043 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:47Z with 3 results 
+2021-11-03 23:14:48,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:49,193 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:48Z with 0 results
+2021-11-03 23:14:49,193 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:48Z with 3 results 
+2021-11-03 23:14:52,489 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:52,968 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:52Z with 0 results
+2021-11-03 23:14:52,969 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:52Z with 3 results 
+2021-11-03 23:14:53,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:54,189 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:53Z with 0 results
+2021-11-03 23:14:54,189 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:53Z with 3 results 
+2021-11-03 23:14:57,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:57,955 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:57Z with 0 results
+2021-11-03 23:14:57,955 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:57Z with 3 results 
+2021-11-03 23:14:58,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:14:59,197 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:14:58Z with 0 results
+2021-11-03 23:14:59,198 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:14:58Z with 3 results 
+2021-11-03 23:15:02,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:02,939 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:02Z with 0 results
+2021-11-03 23:15:02,939 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:02Z with 3 results 
+2021-11-03 23:15:03,754 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:04,264 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:03Z with 0 results
+2021-11-03 23:15:04,264 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:03Z with 3 results 
+2021-11-03 23:15:07,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:07,929 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:07Z with 0 results
+2021-11-03 23:15:07,930 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:07Z with 3 results 
+2021-11-03 23:15:08,752 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:09,189 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:08Z with 0 results
+2021-11-03 23:15:09,189 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:08Z with 3 results 
+2021-11-03 23:15:12,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:12,932 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:12Z with 0 results
+2021-11-03 23:15:12,933 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:12Z with 3 results 
+2021-11-03 23:15:13,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:14,183 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:13Z with 0 results
+2021-11-03 23:15:14,183 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:13Z with 3 results 
+2021-11-03 23:15:17,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:17,991 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:17Z with 0 results
+2021-11-03 23:15:17,991 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:17Z with 3 results 
+2021-11-03 23:15:18,750 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:19,309 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:18Z with 0 results
+2021-11-03 23:15:19,309 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:18Z with 3 results 
+2021-11-03 23:15:22,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:22,975 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:22Z with 0 results
+2021-11-03 23:15:22,975 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:22Z with 3 results 
+2021-11-03 23:15:23,750 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:24,236 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:23Z with 0 results
+2021-11-03 23:15:24,237 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:23Z with 3 results 
+2021-11-03 23:15:27,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:27,960 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:27Z with 0 results
+2021-11-03 23:15:27,961 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:27Z with 3 results 
+2021-11-03 23:15:28,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:29,244 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:28Z with 0 results
+2021-11-03 23:15:29,245 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:28Z with 3 results 
+2021-11-03 23:15:32,492 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:32,993 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:32Z with 0 results
+2021-11-03 23:15:32,994 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:32Z with 3 results 
+2021-11-03 23:15:33,750 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:34,266 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:33Z with 0 results
+2021-11-03 23:15:34,266 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:33Z with 3 results 
+2021-11-03 23:15:37,490 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:37,960 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:37Z with 0 results
+2021-11-03 23:15:37,961 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:37Z with 3 results 
+2021-11-03 23:15:38,750 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:39,205 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:38Z with 0 results
+2021-11-03 23:15:39,206 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:38Z with 3 results 
+2021-11-03 23:15:42,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:42,966 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:42Z with 0 results
+2021-11-03 23:15:42,966 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:42Z with 3 results 
+2021-11-03 23:15:43,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:44,203 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:43Z with 0 results
+2021-11-03 23:15:44,203 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:43Z with 3 results 
+2021-11-03 23:15:47,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:47,964 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:47Z with 0 results
+2021-11-03 23:15:47,964 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:47Z with 3 results 
+2021-11-03 23:15:48,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:49,286 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:48Z with 0 results
+2021-11-03 23:15:49,286 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:48Z with 3 results 
+2021-11-03 23:15:52,490 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:52,969 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:52Z with 0 results
+2021-11-03 23:15:52,969 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:52Z with 3 results 
+2021-11-03 23:15:53,747 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:54,256 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:53Z with 0 results
+2021-11-03 23:15:54,257 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:53Z with 3 results 
+2021-11-03 23:15:57,496 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:58,019 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:57Z with 0 results
+2021-11-03 23:15:58,020 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:57Z with 3 results 
+2021-11-03 23:15:58,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:15:59,288 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:15:58Z with 0 results
+2021-11-03 23:15:59,288 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:15:58Z with 3 results 
+2021-11-03 23:16:02,494 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:03,033 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:02Z with 0 results
+2021-11-03 23:16:03,035 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:02Z with 3 results 
+2021-11-03 23:16:03,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:04,236 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:03Z with 0 results
+2021-11-03 23:16:04,236 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:03Z with 3 results 
+2021-11-03 23:16:07,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:07,994 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:07Z with 0 results
+2021-11-03 23:16:07,996 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:07Z with 3 results 
+2021-11-03 23:16:08,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:09,247 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:08Z with 0 results
+2021-11-03 23:16:09,248 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:08Z with 3 results 
+2021-11-03 23:16:12,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:13,005 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:12Z with 0 results
+2021-11-03 23:16:13,005 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:12Z with 3 results 
+2021-11-03 23:16:13,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:14,212 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:13Z with 0 results
+2021-11-03 23:16:14,213 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:13Z with 3 results 
+2021-11-03 23:16:17,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:17,996 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:17Z with 0 results
+2021-11-03 23:16:17,997 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:17Z with 3 results 
+2021-11-03 23:16:18,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:19,314 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:18Z with 0 results
+2021-11-03 23:16:19,314 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:18Z with 3 results 
+2021-11-03 23:16:22,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:23,017 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:22Z with 0 results
+2021-11-03 23:16:23,017 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:22Z with 3 results 
+2021-11-03 23:16:23,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:24,270 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:23Z with 0 results
+2021-11-03 23:16:24,270 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:23Z with 3 results 
+2021-11-03 23:16:27,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:28,025 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:27Z with 0 results
+2021-11-03 23:16:28,025 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:27Z with 3 results 
+2021-11-03 23:16:28,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:29,252 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:28Z with 0 results
+2021-11-03 23:16:29,252 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:28Z with 3 results 
+2021-11-03 23:16:32,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:32,970 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:32Z with 0 results
+2021-11-03 23:16:32,971 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:32Z with 3 results 
+2021-11-03 23:16:33,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:34,245 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:33Z with 0 results
+2021-11-03 23:16:34,246 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:33Z with 3 results 
+2021-11-03 23:16:37,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:38,023 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:37Z with 0 results
+2021-11-03 23:16:38,023 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:37Z with 3 results 
+2021-11-03 23:16:38,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:39,286 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:38Z with 0 results
+2021-11-03 23:16:39,286 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:38Z with 3 results 
+2021-11-03 23:16:42,489 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:42,987 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:42Z with 0 results
+2021-11-03 23:16:42,988 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:42Z with 3 results 
+2021-11-03 23:16:43,750 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:44,244 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:43Z with 0 results
+2021-11-03 23:16:44,244 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:43Z with 3 results 
+2021-11-03 23:16:47,490 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:48,031 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:47Z with 0 results
+2021-11-03 23:16:48,031 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:47Z with 3 results 
+2021-11-03 23:16:48,752 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:49,268 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:48Z with 0 results
+2021-11-03 23:16:49,268 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:48Z with 3 results 
+2021-11-03 23:16:52,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:53,008 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:52Z with 0 results
+2021-11-03 23:16:53,009 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:52Z with 3 results 
+2021-11-03 23:16:53,749 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:54,280 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:53Z with 0 results
+2021-11-03 23:16:54,280 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:53Z with 3 results 
+2021-11-03 23:16:57,489 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:57,996 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:57Z with 0 results
+2021-11-03 23:16:57,996 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:57Z with 3 results 
+2021-11-03 23:16:58,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:16:59,239 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:16:58Z with 0 results
+2021-11-03 23:16:59,240 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:16:58Z with 3 results 
+2021-11-03 23:17:02,489 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:02,984 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:02Z with 0 results
+2021-11-03 23:17:02,985 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:02Z with 3 results 
+2021-11-03 23:17:03,750 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:04,278 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:03Z with 0 results
+2021-11-03 23:17:04,278 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:03Z with 3 results 
+2021-11-03 23:17:07,489 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:07,979 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:07Z with 0 results
+2021-11-03 23:17:07,979 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:07Z with 3 results 
+2021-11-03 23:17:08,749 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:09,204 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:08Z with 0 results
+2021-11-03 23:17:09,204 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:08Z with 3 results 
+2021-11-03 23:17:12,488 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:12,998 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:12Z with 0 results
+2021-11-03 23:17:12,999 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:12Z with 3 results 
+2021-11-03 23:17:13,748 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:14,217 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:13Z with 0 results
+2021-11-03 23:17:14,225 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:13Z with 3 results 
+2021-11-03 23:17:17,491 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:18,036 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:17Z with 0 results
+2021-11-03 23:17:18,038 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:17Z with 3 results 
+2021-11-03 23:17:18,750 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:19,311 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:18Z with 0 results
+2021-11-03 23:17:19,311 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:18Z with 3 results 
+2021-11-03 23:17:22,495 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:23,025 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:22Z with 0 results
+2021-11-03 23:17:23,026 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:22Z with 3 results 
+2021-11-03 23:17:23,749 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:24,277 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:23Z with 0 results
+2021-11-03 23:17:24,277 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:23Z with 3 results 
+2021-11-03 23:17:27,494 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:28,044 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:27Z with 0 results
+2021-11-03 23:17:28,045 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:27Z with 3 results 
+2021-11-03 23:17:28,750 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:29,361 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:28Z with 0 results
+2021-11-03 23:17:29,362 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:28Z with 3 results 
+2021-11-03 23:17:32,492 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:33,020 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:32Z with 0 results
+2021-11-03 23:17:33,021 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:32Z with 3 results 
+2021-11-03 23:17:33,750 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:34,254 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:33Z with 0 results
+2021-11-03 23:17:34,254 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:33Z with 3 results 
+2021-11-03 23:17:37,492 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:37,953 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:37Z with 0 results
+2021-11-03 23:17:37,954 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:37Z with 3 results 
+2021-11-03 23:17:52,554 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:53,237 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:52Z with 126 results
+2021-11-03 23:17:53,237 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:52Z with 124 results 
+2021-11-03 23:17:53,241 - basicLogger - DEBUG - Updated statistic values: {'num_temp_readings': 126, 'max_temp_low_reading': '0°C', 'max_temp_high_reading': '50°C', 'max_temp_intermediate_reading': '30°C', 'num_ap_readings': 124, 'max_ap_reading': '105.2kPa', 'last_updated': '2021-11-03T23:17:52Z'}
+2021-11-03 23:17:53,242 - basicLogger - INFO - Period Processing ended
+2021-11-03 23:17:55,283 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:55,776 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:55Z with 0 results
+2021-11-03 23:17:55,777 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:55Z with 3 results 
+2021-11-03 23:17:57,556 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:17:58,053 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:17:57Z with 0 results
+2021-11-03 23:17:58,054 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:17:57Z with 3 results 
+2021-11-03 23:18:00,285 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:00,830 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:00Z with 0 results
+2021-11-03 23:18:00,831 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:00Z with 3 results 
+2021-11-03 23:18:01,303 - basicLogger - INFO - Get stats request started
+2021-11-03 23:18:01,307 - basicLogger - DEBUG - Contents: {'num_temp_readings': 126, 'max_temp_low_reading': '0°C', 'max_temp_high_reading': '50°C', 'max_temp_intermediate_reading': '30°C', 'num_ap_readings': 124, 'max_ap_reading': '105.2kPa', 'last_updated': '2021-11-03T23:17:52Z'}
+2021-11-03 23:18:01,312 - basicLogger - INFO - Get stats request completed
+2021-11-03 23:18:02,565 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:03,166 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:02Z with 0 results
+2021-11-03 23:18:03,167 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:02Z with 3 results 
+2021-11-03 23:18:05,285 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:05,815 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:05Z with 0 results
+2021-11-03 23:18:05,817 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:05Z with 3 results 
+2021-11-03 23:18:07,571 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:08,049 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:07Z with 0 results
+2021-11-03 23:18:08,057 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:07Z with 3 results 
+2021-11-03 23:18:10,285 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:10,871 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:10Z with 0 results
+2021-11-03 23:18:10,872 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:10Z with 3 results 
+2021-11-03 23:18:12,558 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:13,119 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:12Z with 0 results
+2021-11-03 23:18:13,120 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:12Z with 3 results 
+2021-11-03 23:18:15,282 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:15,816 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:15Z with 0 results
+2021-11-03 23:18:15,817 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:15Z with 3 results 
+2021-11-03 23:18:17,560 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:18,032 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:17Z with 0 results
+2021-11-03 23:18:18,033 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:17Z with 3 results 
+2021-11-03 23:18:20,283 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:20,869 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:20Z with 0 results
+2021-11-03 23:18:20,870 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:20Z with 3 results 
+2021-11-03 23:18:22,560 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:23,062 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:22Z with 0 results
+2021-11-03 23:18:23,063 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:22Z with 3 results 
+2021-11-03 23:18:25,286 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:25,836 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:25Z with 0 results
+2021-11-03 23:18:25,836 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:25Z with 3 results 
+2021-11-03 23:18:27,560 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:28,030 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:27Z with 0 results
+2021-11-03 23:18:28,031 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:27Z with 3 results 
+2021-11-03 23:18:30,286 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:30,798 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:30Z with 0 results
+2021-11-03 23:18:30,798 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:30Z with 3 results 
+2021-11-03 23:18:32,565 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:33,089 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:32Z with 0 results
+2021-11-03 23:18:33,090 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:32Z with 3 results 
+2021-11-03 23:18:35,290 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:35,783 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:35Z with 0 results
+2021-11-03 23:18:35,783 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:35Z with 3 results 
+2021-11-03 23:18:37,554 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:38,033 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:37Z with 0 results
+2021-11-03 23:18:38,034 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:37Z with 3 results 
+2021-11-03 23:18:40,288 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:40,766 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:40Z with 0 results
+2021-11-03 23:18:40,767 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:40Z with 3 results 
+2021-11-03 23:18:42,554 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:43,111 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:42Z with 0 results
+2021-11-03 23:18:43,112 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:42Z with 3 results 
+2021-11-03 23:18:45,286 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:45,825 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:45Z with 0 results
+2021-11-03 23:18:45,826 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:45Z with 3 results 
+2021-11-03 23:18:47,555 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:48,020 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:47Z with 0 results
+2021-11-03 23:18:48,021 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:47Z with 3 results 
+2021-11-03 23:18:50,283 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:50,765 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:50Z with 0 results
+2021-11-03 23:18:50,765 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:50Z with 3 results 
+2021-11-03 23:18:52,555 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:53,057 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:52Z with 0 results
+2021-11-03 23:18:53,058 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:52Z with 3 results 
+2021-11-03 23:18:55,283 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:55,823 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:55Z with 0 results
+2021-11-03 23:18:55,823 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:55Z with 3 results 
+2021-11-03 23:18:57,554 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:18:58,054 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:18:57Z with 0 results
+2021-11-03 23:18:58,059 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:18:57Z with 3 results 
+2021-11-03 23:19:00,283 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:19:00,807 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:19:00Z with 0 results
+2021-11-03 23:19:00,807 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:19:00Z with 3 results 
+2021-11-03 23:19:02,557 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:19:03,044 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:19:02Z with 0 results
+2021-11-03 23:19:03,044 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:19:02Z with 3 results 
+2021-11-03 23:19:05,285 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:19:05,790 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:19:05Z with 0 results
+2021-11-03 23:19:05,791 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:19:05Z with 3 results 
+2021-11-03 23:19:07,554 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:19:08,034 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:19:07Z with 0 results
+2021-11-03 23:19:08,034 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:19:07Z with 3 results 
+2021-11-03 23:19:10,285 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:19:10,783 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:19:10Z with 0 results
+2021-11-03 23:19:10,783 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:19:10Z with 3 results 
+2021-11-03 23:19:12,553 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:19:13,012 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:19:12Z with 0 results
+2021-11-03 23:19:13,013 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:19:12Z with 3 results 
+2021-11-03 23:19:15,283 - basicLogger - INFO - Start Periodic Processing
+2021-11-03 23:19:15,797 - basicLogger - INFO - Successfully returned temperature data after 2021-11-03T23:19:15Z with 0 results
+2021-11-03 23:19:15,799 - basicLogger - INFO - Successfully recieved air pressure data after 2021-11-03T23:19:15Z with 3 results 

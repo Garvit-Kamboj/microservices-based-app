@@ -1,0 +1,280 @@
+2021-11-03 23:12:58,527 - basicLogger - INFO - connecting to DB. Hostname: acit3855-lab6a.eastus.cloudapp.azure.com, Port: 3306
+2021-11-03 23:12:58,693 - basicLogger - INFO - connecting to DB. Hostname: acit3855-lab6a.eastus.cloudapp.azure.com, Port: 3306
+2021-11-03 23:13:18,673 - basicLogger - INFO - Query for Temperature data after 2016-08-29T09:12:33Z returns 126 results
+2021-11-03 23:13:18,911 - basicLogger - INFO - Query for Air Pressure data after 2016-08-29T09:12:33Z returns 124 results
+2021-11-03 23:13:19,396 - basicLogger - INFO - Query for Temperature data after 2016-08-29T09:12:33Z returns 126 results
+2021-11-03 23:13:19,744 - basicLogger - INFO - Query for Air Pressure data after 2016-08-29T09:12:33Z returns 124 results
+2021-11-03 23:13:22,735 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:22,955 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:24,032 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:24,253 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:27,724 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:27,942 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:28,965 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:29,187 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:32,705 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:32,926 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:33,977 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:34,241 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:37,704 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:37,991 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:38,964 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:39,183 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:42,707 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:42,925 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:44,000 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:44,220 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:47,706 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:47,968 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:48,967 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:49,191 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:52,717 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:52,987 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:53,972 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:54,208 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:57,707 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:57,969 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:13:58,964 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:13:59,188 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:02,740 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:03,025 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:04,026 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:04,283 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:07,726 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:08,005 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:08,978 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:09,202 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:12,754 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:13,018 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:14,011 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:14,249 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:17,728 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:18,003 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:18,965 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:19,184 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:22,780 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:23,061 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:23,985 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:24,248 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:27,764 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:27,982 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:28,972 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:29,196 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:32,723 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:32,988 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:33,982 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:34,217 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:37,767 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:38,039 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:38,964 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:39,184 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:42,723 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:42,985 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:43,980 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:44,212 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:47,761 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:48,039 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:48,965 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:49,190 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:52,745 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:52,965 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:53,965 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:54,185 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:57,732 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:57,952 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:14:58,976 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:14:59,194 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:02,718 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:02,935 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:03,989 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:04,261 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:07,707 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:07,927 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:08,969 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:09,187 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:12,710 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:12,930 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:13,962 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:14,180 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:17,747 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:17,986 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:19,006 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:19,305 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:22,755 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:22,972 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:23,985 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:24,223 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:27,708 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:27,957 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:28,969 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:29,235 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:32,740 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:32,991 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:33,989 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:34,263 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:37,711 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:37,958 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:38,970 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:39,203 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:42,725 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:42,961 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:43,980 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:44,201 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:47,712 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:47,962 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:49,009 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:49,275 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:52,712 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:52,961 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:54,019 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:54,243 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:57,751 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:58,014 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:15:59,008 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:15:59,284 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:02,763 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:03,027 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:03,972 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:04,228 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:07,735 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:07,985 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:08,980 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:09,242 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:12,736 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:13,000 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:13,987 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:14,207 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:17,717 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:17,989 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:18,997 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:19,309 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:22,736 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:23,013 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:23,989 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:24,267 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:27,718 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:28,021 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:29,015 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:29,248 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:32,731 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:32,966 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:33,971 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:34,239 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:37,718 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:38,019 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:39,005 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:39,282 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:42,717 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:42,983 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:43,973 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:44,237 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:47,722 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:48,026 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:48,983 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:49,263 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:52,709 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:53,005 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:54,000 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:54,276 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:57,741 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:57,991 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:16:59,010 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:16:59,234 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:02,712 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:02,981 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:03,994 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:04,274 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:07,717 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:07,975 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:08,979 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:09,200 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:12,761 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:12,989 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:13,970 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:14,203 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:17,722 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:18,019 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:19,022 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:19,305 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:22,733 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:23,014 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:24,008 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:24,271 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:27,769 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:28,035 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:29,030 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:29,354 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:32,732 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:33,012 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:34,003 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:34,242 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:37,718 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:13:18Z returns 0 results
+2021-11-03 23:17:37,947 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:13:18Z returns 3 results
+2021-11-03 23:17:52,856 - basicLogger - INFO - Query for Temperature data after 2016-08-29T09:12:33Z returns 126 results
+2021-11-03 23:17:53,218 - basicLogger - INFO - Query for Air Pressure data after 2016-08-29T09:12:33Z returns 124 results
+2021-11-03 23:17:55,513 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:17:55,772 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:17:57,806 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:17:58,048 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:00,523 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:00,826 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:02,832 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:03,146 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:05,547 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:05,810 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:07,808 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:08,036 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:10,559 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:10,844 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:12,814 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:13,115 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:15,546 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:15,812 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:17,796 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:18,025 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:20,572 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:20,865 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:22,780 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:23,058 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:25,548 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:25,827 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:27,791 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:28,025 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:30,532 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:30,793 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:32,793 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:33,083 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:35,524 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:35,778 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:37,795 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:38,029 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:40,532 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:40,762 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:42,821 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:43,101 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:45,558 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:45,822 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:47,780 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:48,015 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:50,516 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:50,761 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:52,820 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:53,052 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:55,551 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:55,819 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:18:57,807 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:18:58,041 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:19:00,534 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:19:00,797 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:19:02,816 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:19:03,039 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:19:05,550 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:19:05,786 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:19:07,800 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:19:08,026 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:19:10,509 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:19:10,777 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:19:12,782 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:19:13,009 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
+2021-11-03 23:19:15,536 - basicLogger - INFO - Query for Temperature data after 2021-11-03T23:17:52Z returns 0 results
+2021-11-03 23:19:15,783 - basicLogger - INFO - Query for Air Pressure data after 2021-11-03T23:17:52Z returns 3 results
