@@ -67,7 +67,7 @@ services:
   audit_log:
     image: audit_log:latest
     ports:
-      - "8200:8200"
+      - "8110:8110"
     depends_on:
       - "kafka"
 # Names our volume
