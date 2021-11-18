@@ -16,15 +16,22 @@ paths:
         - sensors
       summary: gets new temperature data
       operationId: app.get_temperature_data
-      description: Gets temperature data added after a timestamp
+      description: Gets temperature data between start_timestamp and end_timestamp
       parameters:
-        - name: timestamp
+        - name: start_timestamp
           in: query
           description: Limits the number of items on the page
           schema:
             type: string
             format: date-time
             example: '2016-08-29T09:12:33Z'
+        - name: end_timestamp
+          in: query
+          description: Limits the number of items on the page
+          schema:
+            type: string
+            format: date-time
+            example: '2020-08-29T09:12:33Z'
       responses:
         '200':
           description: Successfully returned a list of temperature events
@@ -51,15 +58,22 @@ paths:
         - sensors
       summary: gets new air pressure data
       operationId: app.get_air_pressure_data
-      description: Gets air pressure data added after a timestamp
+      description: Gets air pressure data between start_timestamp and end_timestamp
       parameters:
-        - name: timestamp
+        - name: start_timestamp
           in: query
           description: Limits the number of items on the page
           schema:
             type: string
             format: date-time
             example: '2016-08-29T09:12:33Z'
+        - name: end_timestamp
+          in: query
+          description: Limits the number of items on the page
+          schema:
+            type: string
+            format: date-time
+            example: '2020-08-29T09:12:33Z'
       responses:
         '200':
           description: Successfully returned a list of air pressure events

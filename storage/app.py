@@ -9,8 +9,10 @@ from temperature import Temperature
 from air_pressure import AirPressure
 import datetime
 import json
+import time
 from pykafka import KafkaClient
 from pykafka.common import OffsetType
+from sqlalchemy import and_
 from threading import Thread
 
 with open('app_conf.yml', 'r') as f:
@@ -31,9 +33,22 @@ logger.info(f'connecting to DB. Hostname: {app_config["datastore"]["hostname"]},
 
 def process_messages():
     """ Process event messages """
+
+    current_retry_count = 0
+    max_retry_count = app_config["events"]["max_allowed_retries"]
     hostname = "%s:%d" % (app_config["events"]["hostname"],  app_config["events"]["port"])
-    client = KafkaClient(hosts=hostname)
-    topic = client.topics[str.encode(app_config["events"]["topic"])]
+
+    while current_retry_count < app_config["events"]["max_allowed_retries"]:
+        try:
+            logger.info(f"Connecting to Kafka...Attempt #${current_retry_count}")
+            client = KafkaClient(hosts=hostname)
+            topic = client.topics[str.encode(app_config["events"]["topic"])]
+            current_retry_count = max_retry_count
+        except:
+            logger.error(f'Connection to Kafka failed, retrying in {app_config["events"]["sleep_time"]}')
+            time.sleep(app_config["events"["sleep_time"]])
+            current_retry_count += 1
+
     
     # Create a consume on a consumer group, that only reads new messages 
     # (uncommitted messages) when the service re-starts (i.e., it doesn't 
@@ -60,16 +75,19 @@ def process_messages():
         # Commit the new message as being read
         consumer.commit_offsets()
 
-def get_temperature_data(timestamp):
+def get_temperature_data(start_timestamp, end_timestamp):
     """Gets new temperature data after the timestamp"""
 
     # print("TIMESTAMP:", timestamp)
 
     session = DB_SESSION()
 
-    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
 
-    readings = session.query(Temperature).filter(Temperature.date_created >= timestamp_datetime)
+    readings = session.query(Temperature).filter(
+        and_(Temperature.date_created >= start_timestamp_datetime,
+             Temperature.date_created < end_timestamp_datetime))
 
     results_list = []
 
@@ -78,20 +96,22 @@ def get_temperature_data(timestamp):
 
     session.close()
 
-    logger.info("Query for Temperature data after %s returns %d results" %
-                (timestamp, len(results_list)))
+    logger.info("Query for Temperature data after %s and before %s returns %d results" %
+                (start_timestamp, end_timestamp, len(results_list)))
 
     return results_list, 200
 
-def get_air_pressure_data(timestamp):
+def get_air_pressure_data(start_timestamp, end_timestamp):
     """Gets new air pressure data after the timestamp"""
 
     session = DB_SESSION()
 
-    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
 
-    readings = session.query(AirPressure).filter(AirPressure.date_created >=
-                                                timestamp_datetime)
+    readings = session.query(AirPressure).filter(
+        and_(AirPressure.date_created >= start_timestamp_datetime,
+            AirPressure.date_created < end_timestamp_datetime))
 
     results_list = []
 
@@ -100,8 +120,8 @@ def get_air_pressure_data(timestamp):
 
     session.close()
 
-    logger.info("Query for Air Pressure data after %s returns %d results" %
-                (timestamp, len(results_list)))
+    logger.info("Query for Air Pressure data after %s and before %s returns %d results" %
+                (start_timestamp, end_timestamp, len(results_list)))
 
     return results_list, 200
 

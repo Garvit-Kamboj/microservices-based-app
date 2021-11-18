@@ -35,8 +35,8 @@ def populate_stats():
             }
     
     current_datetime = datetime.datetime.strftime(datetime.datetime.now(), "%Y-%m-%dT%H:%M:%SZ")
-    temperature_request = requests.get(app_config['eventstore']['url']+"data/temperature", params={"timestamp": data['last_updated']})
-    air_pressure_request = requests.get(app_config['eventstore']['url']+"data/air-pressure", params={"timestamp": data['last_updated']})
+    temperature_request = requests.get(app_config['eventstore']['url']+"data/temperature", params={"start_timestamp": data['last_updated'], "end_timestamp": current_datetime})
+    air_pressure_request = requests.get(app_config['eventstore']['url']+"data/air-pressure", params={"start_timestamp": data['last_updated'], "end_timestamp": current_datetime})
 
     temperature_data = temperature_request.json()
     air_pressure_data = air_pressure_request.json()
