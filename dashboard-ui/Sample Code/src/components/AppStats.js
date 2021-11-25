@@ -39,8 +39,8 @@ export default function AppStats() {
 							<th>Temperature</th>
 						</tr>
 						<tr>
-							<td># BP: {stats['num_ap_readings']}</td>
-							<td># HR: {stats['num_temp_readings']}</td>
+							<td># Air-Pressure: {stats['num_ap_readings']}</td>
+							<td># Temperature: {stats['num_temp_readings']}</td>
 						</tr>
 						<tr>
 							<td colspan="2">Max low temp: {stats['max_temp_low_reading']}</td>

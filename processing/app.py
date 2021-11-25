@@ -6,15 +6,31 @@ from flask_cors import CORS, cross_origin
 import requests
 import datetime
 import json
+import os
 
-with open('app_conf.yml', 'r') as f:
-    app_config = yaml.safe_load(f.read())
+if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
+    print("In Test Environment")
+    app_conf_file = "/config/app_conf.yml"
+    log_conf_file = "/config/log_conf.yml"
+else:
+    print("In Dev Environment")
+    app_conf_file = "app_conf.yml"
+    log_conf_file = "log_conf.yml"
 
-with open('log_conf.yml', 'r') as f:
+print(app_conf_file)
+
+with open(os.path.join(os.path.dirname(__file__), app_conf_file), 'r') as f:
+   app_config = yaml.safe_load(f.read())
+
+# External Logging configuration 
+with open(os.path.join(os.path.dirname(__file__), log_conf_file), 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
 logger = logging.getLogger('basicLogger')
+
+logger.info("App Conf file: %s" % app_conf_file)
+logger.info("Log Conf file: %s" % log_conf_file)
 
 def populate_stats():
     """ Periodically update stats """

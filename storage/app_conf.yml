@@ -1,10 +1,10 @@
 version: 1
 datastore:
-  user: your_username
-  password: your_password
+  user: events
+  password: evts
   hostname: acit3855-lab6a.eastus.cloudapp.azure.com
   port: 3306
-  db: your_db
+  db: events
   
 events:
   hostname: acit3855-lab6a.eastus.cloudapp.azure.com

@@ -10,25 +10,39 @@ from air_pressure import AirPressure
 import datetime
 import json
 import time
+import os
 from pykafka import KafkaClient
 from pykafka.common import OffsetType
 from sqlalchemy import and_
 from threading import Thread
 
-with open('app_conf.yml', 'r') as f:
-    app_config = yaml.safe_load(f.read())
+if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
+    print("In Test Environment")
+    app_conf_file = "/config/app_conf.yml"
+    log_conf_file = "/config/log_conf.yml"
+else:
+    print("In Dev Environment")
+    app_conf_file = "app_conf.yml"
+    log_conf_file = "log_conf.yml"
+
+with open(os.path.join(os.path.dirname(__file__), app_conf_file), 'r') as f:
+   app_config = yaml.safe_load(f.read())
 
 DB_ENGINE = create_engine(f"mysql+pymysql://{app_config['datastore']['user']}:{app_config['datastore']['password']}@{app_config['datastore']['hostname']}:{app_config['datastore']['port']}/{app_config['datastore']['db']}")
 
 Base.metadata.bind = DB_ENGINE
 DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
-
-with open('log_conf.yml', 'r') as f:
+# External Logging configuration 
+with open(os.path.join(os.path.dirname(__file__), log_conf_file), 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
 logger = logging.getLogger('basicLogger')
+
+#logger.info("App Conf file: %s" % app_conf_file)
+#logger.info("Log Conf file: %s" % log_conf_file)
+
 logger.info(f'connecting to DB. Hostname: {app_config["datastore"]["hostname"]}, Port: {app_config["datastore"]["port"]}')
 
 def process_messages():
@@ -38,18 +52,19 @@ def process_messages():
     max_retry_count = app_config["events"]["max_allowed_retries"]
     hostname = "%s:%d" % (app_config["events"]["hostname"],  app_config["events"]["port"])
 
-    while current_retry_count < app_config["events"]["max_allowed_retries"]:
+    while current_retry_count < max_retry_count:
+        print("CURRENT:, MAX: ", current_retry_count, max_retry_count)
         try:
-            logger.info(f"Connecting to Kafka...Attempt #${current_retry_count}")
+            logger.info(f"Connecting to Kafka...Attempt {current_retry_count}")
             client = KafkaClient(hosts=hostname)
             topic = client.topics[str.encode(app_config["events"]["topic"])]
             current_retry_count = max_retry_count
+            print("Connection to Kafka successful")
         except:
             logger.error(f'Connection to Kafka failed, retrying in {app_config["events"]["sleep_time"]}')
             time.sleep(app_config["events"["sleep_time"]])
             current_retry_count += 1
 
-    
     # Create a consume on a consumer group, that only reads new messages 
     # (uncommitted messages) when the service re-starts (i.e., it doesn't 
     # read all the old messages from the history in the message queue).
@@ -61,7 +76,7 @@ def process_messages():
     for msg in consumer:
         msg_str = msg.value.decode('utf-8')
         msg = json.loads(msg_str)
-        logger.info("Message: %s" % msg)
+        #logger.info("Message: %s" % msg)
         payload = msg["payload"]
         if msg["type"] == "temperature": # Change this to your event type
             # Store the event1 (i.e., the payload) to the DB
